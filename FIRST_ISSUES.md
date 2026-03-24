@@ -174,9 +174,8 @@ Enhance the AgentOrchestrator to support sophisticated error handling strategies
 
 ## 🤝 Need Help?
 
-- Join our [Discord community](https://discord.gg/groovy-web)
-- Open a [discussion](https://github.com/groovy-web/ai-agents/discussions)
-- Check existing [documentation](https://docs.groovy-web.dev)
+- Open a [discussion](https://github.com/groovy-web/groovy-web-ai-agents/discussions)
+- Visit [Groovy Web](https://www.groovyweb.co/?utm_source=github&utm_medium=readme&utm_campaign=ai-agents)
 
 ---
 

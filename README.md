@@ -211,9 +211,9 @@ MIT License - see [LICENSE](./LICENSE) for details.
 
 ## 🔗 Links
 
-- [Main Documentation](https://docs.groovy-web.dev)
-- [Examples Repository](https://github.com/groovy-web/examples)
-- [Issue Tracker](https://github.com/groovy-web/ai-agents/issues)
+- [Groovy Web - AI-First Engineering](https://www.groovyweb.co/?utm_source=github&utm_medium=readme&utm_campaign=ai-agents)
+- [Examples Repository](https://github.com/groovy-web/groovy-web-examples)
+- [Issue Tracker](https://github.com/groovy-web/groovy-web-ai-agents/issues)
 
 ## ⭐ Show Your Support
 
